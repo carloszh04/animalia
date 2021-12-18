@@ -1,0 +1,3 @@
+<div {{ $attributes }} role="alert">
+    <i class="fas fa-info-circle"></i> No hay resultados para la búsqueda en la página {{ $page }} al mostrar {{ $perPage }} por página ...
+</div>

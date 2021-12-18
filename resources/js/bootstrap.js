@@ -6,9 +6,18 @@ window._ = require('lodash');
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
-window.axios = require('axios');
+/* window.axios = require('axios');
 
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'; */
+import Alpine from 'alpinejs'
+window.Alpine = Alpine
+Alpine.start()
+import { tns } from 'tiny-slider/src/tiny-slider';
+window.tns = tns;
+import { WOW } from 'wowjs';
+window.WOW = WOW;
+window.Swal = require('sweetalert2');
+require('../assets/website/js/main');
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

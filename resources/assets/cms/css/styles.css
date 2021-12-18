@@ -1,0 +1,73 @@
+/* Buttons */
+.btn {
+    @apply font-semibold py-2 px-4 rounded;
+}
+
+.btn-outline-danger {
+    @apply bg-transparent text-red-700 border border-red-500;
+}
+
+.btn-outline-danger:hover {
+    @apply hover:bg-red-500 hover:text-white hover:border-transparent;
+}
+
+
+/* Alerts */
+.alert-left-danger {
+    @apply bg-red-100 border-l-4 border-red-500 text-red-700 p-4;
+}
+
+/* Tables */
+/* .table {
+    @apply w-full divide-y divide-gray-200;
+}
+
+.table th {
+    @apply px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.table td {
+    @apply px-6 py-4 whitespace-nowrap;
+}
+
+.table-responsive {
+    @apply overflow-x-auto w-full;
+} */
+
+/* Lottie Files */
+lottie-player.lottie-center {
+    margin: 0 auto;
+}
+
+/* Forms */
+.form-control {
+    @apply border-gray-300 rounded-md shadow-sm;
+}
+
+.form-control:focus {
+    @apply focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50;
+}
+
+/* Utilities */
+input:disabled, select:disabled, textarea:disabled {
+    background: #f2f2f2 !important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: #000000;
+    border-radius: 6px;
+}
+    ::-webkit-scrollbar-thumb:hover{
+    background: #574E50;
+}
+::-webkit-scrollbar-track{
+    background: #F0F0F0;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
